@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grid: 12;
+  --grid-container-width: 1200px;
+  --grid-container-gap: 15px;
+  --grid-col-gap-vertical: 30px;
+  --grid-col-gap-horizontal: 30px;
+  --primary-color: #4f77ff;
+  --text-color: #2d3958;
+  --sub-text-color: #7b88a8;
+  --lines-gray-line: #e7e5ea;
+  --bgbg-light-alt: #f7f5f1;
+  --text-color-purple: #886cff;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
