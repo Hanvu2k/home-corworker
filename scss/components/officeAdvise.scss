@@ -1,0 +1,35 @@
+.office-advise {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.office-advise__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.office-advise__heading-title {
+  color: var(--text-color);
+}
+
+.office-advise__heading-description {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%; /* 145.455% */
+  letter-spacing: -1px;
+  color: var(--sub-text-color);
+  width: 62%;
+}
+
+.office-advise__btn {
+}

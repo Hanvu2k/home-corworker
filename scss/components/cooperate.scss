@@ -3,24 +3,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
-  .cooperate__title {
-    margin-bottom: 80px;
-    h2 {
-      font-size: 36px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 46px; /* 127.778% */
-      letter-spacing: -1px;
-      text-align: center;
-    }
-  }
+.cooperate__title {
+  margin-bottom: 80px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #000 !important;
+  font-size: 36px;
+  line-height: 127.778%;
+  font-style: normal;
+  color: var(--text-color);
+  font-weight: 500;
+}
 
-  .cooperate__items {
-    width: 915px;
-    .cooperate__item {
-      .cooperate__item-logo {
-      }
-    }
-  }
+.cooperate__items {
+  width: 915px;
+}
+
+.cooperate__item {
+}
+
+.cooperate__item-logo {
 }

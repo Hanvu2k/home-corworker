@@ -1,0 +1,159 @@
+.office-price {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.office-price__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.office-pirce__heading-title {
+  color: var(--text-color);
+}
+
+.office-pirce__heading-description {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%; /* 145.455% */
+  letter-spacing: -1px;
+  color: var(--sub-text-color);
+}
+
+.office-price__btns {
+  display: flex;
+  gap: 16px;
+}
+
+.office-price__btn-item {
+  display: flex;
+  gap: 16px;
+}
+
+.office-price__btn-tag {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%; /* 155.556% */
+  letter-spacing: -0.3px;
+  color: var(--sub-text-color);
+}
+
+.office-price__btn-img {
+  img {
+    border-radius: 20px;
+  }
+}
+
+.office-price__btn-item {
+}
+
+.office-price__btn-tag {
+}
+
+.office-price__btn {
+}
+
+.office-price__option {
+  position: relative;
+}
+
+.office-price__option-item {
+}
+
+.office-price__option-detail {
+  padding: 0 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e7e5ea;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 58px;
+}
+
+.office-price__option-name {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155.556%; /* 155.556% */
+  letter-spacing: 0.4px;
+  padding-top: 35px;
+  color: var(--primary-color);
+}
+
+.office-price__option-price {
+  padding: 20px 0 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.778%;
+  letter-spacing: -2px;
+  color: var(--text-color);
+  font-size: 36px;
+
+  span {
+    font-size: 64px;
+  }
+}
+
+.office-price__option-description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%; /* 162.5% */
+  color: var(--sub-text-color);
+  width: 58%;
+  padding-bottom: 40px;
+}
+
+.office-price__option-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.office-price__option-info-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.office-price__option-info-icon {
+}
+
+.office-price__option-info-content {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%; /* 145.455% */
+  letter-spacing: -1px;
+  color: var(--text-color);
+}
+
+.office-price__option-btn {
+  width: 100%;
+  button {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 17px 0 19px;
+  }
+}
+
+.office-price__union {
+  position: absolute;
+  top: 30px;
+  right: -64px;
+}

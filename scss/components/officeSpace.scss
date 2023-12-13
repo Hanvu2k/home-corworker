@@ -1,3 +1,130 @@
 .office-space {
-  margin-top: 120px;
+  padding-top: 120px;
+}
+
+.office-space__container {
+  position: relative;
+}
+
+.office-space__heading {
+  padding: 110px 0 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.office-space__title {
+  color: var(--text-color);
+  max-width: 70%;
+}
+
+.office-space__description {
+  color: var(--sub-text-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%; /* 155.556% */
+  letter-spacing: -0.3px;
+}
+
+.office-space__info {
+  width: 570px;
+  border-radius: 20px;
+  padding: 60px 100px 40px;
+  box-shadow: 0px 60px 40px 0px rgba(18, 2, 47, 0.1);
+  position: absolute;
+  top: 352px;
+  left: 50px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.office-space__info-name {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%; /* 155.556% */
+  letter-spacing: -0.3px;
+  color: var(--primary-color);
+}
+
+.office-space__info-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.778%; /* 127.778% */
+  letter-spacing: -1px;
+  padding: 30px 0;
+}
+
+.office-space__info-description {
+  p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.556%; /* 155.556% */
+    letter-spacing: -0.3px;
+    color: var(--sub-text-color);
+  }
+}
+
+.office-space__info-more-info {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .office-space__info-learn {
+    color: var(--sub-text-color);
+    text-transform: uppercase;
+  }
+  .office-space__info-arrow {
+    img {
+    }
+  }
+}
+
+.office-space__info-indicator {
+  padding-top: 55px;
+
+  text-align: center;
+}
+
+.office-space__img-1 {
+  position: absolute;
+  top: 402px;
+  right: 146px;
+  z-index: 10;
+
+  img {
+    border-radius: 20px;
+  }
+}
+
+.office-space__img-2 {
+  position: absolute;
+  top: 602px;
+  right: 50px;
+
+  img {
+    border-radius: 20px;
+  }
+}
+
+.office-space__union-1 {
+  position: absolute;
+  top: 522px;
+  left: 50%;
+  transform: translateX(-10%);
+  z-index: 100;
+}
+
+.office-space__union-2 {
+  position: absolute;
+  top: 950px;
+  right: -60px;
 }
