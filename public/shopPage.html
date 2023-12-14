@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Outfit:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shop Page</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-container">
+        <div style="background: url(../images/BG.jpg) no-repeat left bottom">
+          <header class="header">
+            <div class="header__container container">
+              <div class="header__logo">
+                <div class="header__logo-img">
+                  <img src="../images/Logo1.png" alt="logo" />
+                </div>
+              </div>
+
+              <div class="navbar">
+                <ul class="navbar__list-items">
+                  <li class="navbar__list-item">
+                    <a href="./index.html">Home</a>
+                  </li>
+                  <li class="navbar__list-item"><a href="#">Services</a></li>
+                  <li class="navbar__list-item"><a href="#">About</a></li>
+                  <li class="navbar__list-item navbar__list-active">
+                    <a href="#">Pages</a>
+                  </li>
+                  <li class="navbar__list-item">
+                    <a href="./blogPage.html">Blog</a>
+                  </li>
+                  <li class="navbar__list-item"><a href="#">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="header__right">
+                <div class="header__search-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                  >
+                    <circle
+                      cx="9"
+                      cy="9"
+                      r="8"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.5 14.958L19.5 19.958"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="header__bag-icon">
+                  <img src="../images/Bag.png" alt="bag-icon" />
+                </div>
+                <div class="header__sigup-btn">
+                  <button class="btn btn-md btn-primary">
+                    <span>Sign up</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <section class="banner container">
+            <div class="banner__content">
+              <h1 class="banner__content-title heading heading--lg">
+                Our Shop
+              </h1>
+              <div class="banner__content-page">
+                <p><span>Homepage</span> / Shop</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="container" style="padding: 100px 0 120px">
+          <div class="row">
+            <div class="shopsidebar col" style="--col-lg: 3">
+              <div class="shopsidebar-container">
+                <div class="shopsidebar-item">
+                  <div class="shopsidebar-item__heading">
+                    <div class="shopsidebar-item__heading-title">Category</div>
+                    <div class="shopsidebar-item__heading-icon">
+                      <img src="../images/AngleUp.png" alt="angle-up" />
+                    </div>
+                  </div>
+                  <div class="divide"></div>
+
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title">App</div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title">App</div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox checked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title">
+                        Electronics
+                      </div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleUp.png" alt="angle-up" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic-item">
+                    <div class="topic-item__content">
+                      <div class="checkbox unchecked"></div>
+                      <div class="topic-item__content-title">Accessories</div>
+                    </div>
+                    <div class="topic-item__content">
+                      <div class="checkbox unchecked"></div>
+                      <div class="topic-item__content-title">Camera</div>
+                    </div>
+                    <div class="topic-item__content">
+                      <div class="checkbox unchecked"></div>
+                      <div class="topic-item__content-title">Computer</div>
+                    </div>
+                    <div class="topic-item__content">
+                      <div class="checkbox unchecked"></div>
+                      <div class="topic-item__content-title">Headphone</div>
+                    </div>
+                    <div class="topic-item__content">
+                      <div class="checkbox unchecked"></div>
+                      <div class="topic-item__content-title">Smartphone</div>
+                    </div>
+                    <div class="topic-item__content">
+                      <div class="checkbox unchecked"></div>
+                      <div class="topic-item__content-title">Accessories</div>
+                    </div>
+                    <div class="topic-item__content">
+                      <div class="checkbox unchecked"></div>
+                      <div class="topic-item__content-title">Accessories</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="shopsidebar-item">
+                  <div class="shopsidebar-item__heading">
+                    <div class="shopsidebar-item__heading-title">Brand</div>
+                    <div class="shopsidebar-item__heading-icon">
+                      <img src="../images/AngleUp.png" alt="angle-up" />
+                    </div>
+                  </div>
+                  <div class="divide"></div>
+
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title color-gray">
+                        Apple
+                      </div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title color-gray">
+                        Bose
+                      </div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title color-gray">
+                        Dell
+                      </div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title color-gray">
+                        LG
+                      </div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title color-gray">
+                        Samsung
+                      </div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopsidebar-item__topic">
+                    <div class="checkbox unchecked"></div>
+                    <div class="shopsidebar-item__topic-content">
+                      <div class="shopsidebar-item__topic-title color-gray">
+                        Sony
+                      </div>
+                      <div class="shopsidebar-item__topic-icon">
+                        <img src="../images/AngleDown.png" alt="angle-down" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="shopsidebar-item">
+                  <div class="shopsidebar-item__heading">
+                    <div class="shopsidebar-item__heading-title">Price</div>
+                    <div class="shopsidebar-item__heading-icon">
+                      <img src="../images/AngleUp.png" alt="angle-up" />
+                    </div>
+                  </div>
+                  <div class="divide"></div>
+
+                  <div class="shopsidebar-item__price">
+                    <div class="shopsidebar-item__price-select">
+                      <div class="price-line">
+                        <div class="price-line__circle"></div>
+                        <div class="price-line__cross"></div>
+                        <div class="price-line__circle"></div>
+                      </div>
+                      <div class="price-value">
+                        <span>$149</span>
+                        <span>$2,999</span>
+                      </div>
+                    </div>
+
+                    <div class="shopsidebar-item__price-filter">
+                      <div>PRICE: $99-$1999</div>
+                      <h4>FILTER</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product col" style="--col-lg: 9">
+              <div class="product-container">
+                <div class="product-heading">
+                  <div class="product-heading__title">Devices</div>
+                  <div class="product-heading__sortby">
+                    <select>
+                      <option value="">Shorting By</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="divide"></div>
+
+                <div class="row" style="padding-bottom: 70px">
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide1.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide2.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide3.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide4.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide5.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide6.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide7.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide8.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                  <div class="col" style="--col-lg: 4">
+                    <div class="product-item">
+                      <div class="product-item__img">
+                        <img src="../images/devide9.jpg" alt="smart-phone" />
+                      </div>
+                      <h4 class="product-item__name">S22 128GB</h4>
+                      <div class="product-item__price"><p>From $299</p></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pagination">
+                  <div class="pagination-arrow__left">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M8.75 3.5L5.25 7L8.75 10.5"
+                        stroke="#7B88A8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="pagination-item">1</div>
+                  <div class="pagination-item pagination-active">2</div>
+                  <div class="pagination-item">3</div>
+                  <div class="pagination-item">4</div>
+                  <div class="pagination-item">...</div>
+
+                  <div class="pagination-arrow__right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M5.25 10.5L8.75 7L5.25 3.5"
+                        stroke="#7B88A8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          div
+          style="background: url(../images/bgShop.png) no-repeat left bottom"
+        >
+          <div class="chat container">
+            <h2 class="chat__title">
+              Get help, find answers, download drivers, manuals and much more
+            </h2>
+            <div class="chat__description">
+              Contact us online through chat and get support from an expert
+            </div>
+
+            <div class="chat__btn">
+              <button class="btn btn-md btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="footer-container container">
+            <div class="footer-top row">
+              <div class="footer-top__item col" style="--col-lg: 2">
+                <div class="footer-top__item-logo">
+                  <img src="../images/Logo.png" alt="logo" />
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="-col-lg: 2">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">company</h4>
+                  <ul class="footer-top__detail-list">
+                    <li class="footer-top__detail-item">
+                      <a href="#">about</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">work</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">careers</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">pricing</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="--col-lg: 2">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">Services</h4>
+                  <ul class="footer-top__detail-list">
+                    <li class="footer-top__detail-item">
+                      <a href="#">Branding</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Websites</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Development</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Strategy</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Platforms</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="--col-lg: 2">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">Contact</h4>
+                  <ul class="footer-top__detail-list">
+                    <li class="footer-top__detail-item">
+                      <a href="#">Help Desk</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Docs</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Open a Ticket</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Chat</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Forum</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="--col-lg: 4">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">Newsletter</h4>
+                  <div class="footer-top__detail-description">
+                    <p>
+                      Subscribe to our newsletter to keep up to date on our
+                      marketing, website, design services, and tips.
+                    </p>
+                  </div>
+                  <div class="footer-top__detail-submit">
+                    <div class="footer-top__detail-submit-input">
+                      <input type="text" placeholder="Enter email" />
+                    </div>
+                    <div class="footer-top__detail-submit-btn">
+                      <button class="btn btn-md btn-primary">
+                        <span>Submit</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="footer-top__detail-description-2">
+                    <p>
+                      We hate spam as much as you do. We will never, ever send
+                      you such emails.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <div class="footer-bottom__copy-right">
+                <p>
+                  © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+                  Privacy Policy.
+                </p>
+              </div>
+              <div class="footer-bottom__social">
+                <div>
+                  <a href="#"
+                    ><img src="../images/Facebook.png" alt="facebook"
+                  /></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img src="../images/Twitter.png" alt="twitter"
+                  /></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img src="../images/LinkedIn.png" alt="linkedin"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

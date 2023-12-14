@@ -1,7 +1,6 @@
 .hero {
   padding-top: 152px;
   padding-bottom: 512px;
-  background-color: var(--bgbg-light-alt);
 }
 
 .hero__container {
@@ -14,8 +13,7 @@
 }
 
 .hero__content-title {
-  max-width: 60%;
-
+  padding: 0 250px;
   font-size: 72px;
   font-style: normal;
   font-weight: 500;
@@ -46,6 +44,12 @@
   align-items: center;
 }
 
+.hero__booking-btn {
+  span {
+    padding: 0 4px;
+  }
+}
+
 .hero__instruct {
   display: flex;
   align-items: center;
@@ -69,25 +73,25 @@
   .hero__img-1 {
     position: absolute;
     top: 357px;
-    left: 239px;
+    left: 220px;
   }
 
   .hero__img-2 {
     position: absolute;
     top: 299px;
-    right: 223px;
+    right: 134px;
   }
 
   .hero__img-3 {
     position: absolute;
     top: 680px;
-    left: 675px;
+    left: 584px;
   }
 
   .hero__img-4 {
     position: absolute;
     top: 469px;
-    right: 438px;
+    right: 418px;
   }
 
   .hero__img-item {

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Outfit:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog Page</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-container">
+        <div style="background: url(../images/BG.jpg) no-repeat left bottom">
+          <header class="header">
+            <div class="header__container container">
+              <div class="header__logo">
+                <div class="header__logo-img">
+                  <img src="../images/Logo1.png" alt="logo" />
+                </div>
+              </div>
+
+              <div class="navbar">
+                <ul class="navbar__list-items">
+                  <li class="navbar__list-item">
+                    <a href="./index.html">Home</a>
+                  </li>
+                  <li class="navbar__list-item"><a href="#">Services</a></li>
+                  <li class="navbar__list-item"><a href="#">About</a></li>
+                  <li class="navbar__list-item">
+                    <a href="./shopPage.html">Pages</a>
+                  </li>
+                  <li class="navbar__list-item navbar__list-active">
+                    <a href="./blogPage.html">Blog</a>
+                  </li>
+                  <li class="navbar__list-item"><a href="#">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="header__right">
+                <div class="header__search-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                  >
+                    <circle
+                      cx="9"
+                      cy="9"
+                      r="8"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.5 14.958L19.5 19.958"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="header__bag-icon">
+                  <img src="../images/Bag.png" alt="bag-icon" />
+                </div>
+                <div class="header__sigup-btn">
+                  <button class="btn btn-md btn-primary">
+                    <span>Sign up</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <section class="banner container">
+            <div class="banner__content">
+              <h1 class="banner__content-title heading heading--lg">
+                Our Latest News
+              </h1>
+              <div class="banner__content-page">
+                <p><span>Homepage</span> / Blog</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="blog-container container">
+          <div class="row" style="margin: 0">
+            <div class="post col" style="--col-lg: 9">
+              <div class="post-container">
+                <div class="post-item">
+                  <div class="post-item__img">
+                    <img src="../images/post-img1.jpg" alt="post-img" />
+                  </div>
+
+                  <div class="post-item__content">
+                    <div class="post-item__info">
+                      <div class="post-item__info-author">
+                        <div class="post-item__author-img">
+                          <img
+                            src="../images/author-avt.png"
+                            alt="author-avt"
+                          />
+                        </div>
+                        <div class="post-info__author-name">
+                          Written By Admin
+                        </div>
+                      </div>
+                      <div class="post-info__date">10 July, 2022</div>
+                    </div>
+
+                    <h2 class="post-title">
+                      Vietnamese Fintech Startup Raises $25 M Series B Round
+                      From Ospace, Vietnam Investments Group
+                    </h2>
+                    <div class="post-description">
+                      <p>
+                        Vietnamese fintech startup Finhay has raised a $25
+                        million Series B round led by Singapore-based Openspace
+                        Ventures, an early backer of Indonesia's GoTo Group and
+                        30 Under 30 Asia honoree Rexy Josh Dorado's Manila-based
+                        social media site Kumu, and private firm Vietnam
+                        Investments Group.
+                      </p>
+                    </div>
+                    <div class="post-btn">
+                      <button class="btn btn-md btn-primary">Read more</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-item">
+                  <div class="post-item__img">
+                    <img src="../images/post-img2.jpg" alt="post-img" />
+                  </div>
+
+                  <div class="post-item__content">
+                    <div class="post-item__info">
+                      <div class="post-item__info-author">
+                        <div class="post-item__author-img">
+                          <img
+                            src="../images/author-avt.png"
+                            alt="author-avt"
+                          />
+                        </div>
+                        <div class="post-info__author-name">
+                          Written By Admin
+                        </div>
+                      </div>
+                      <div class="post-info__date">10 July, 2022</div>
+                    </div>
+
+                    <h2 class="post-title">
+                      Tips To Know How Technology Can Help Bridge The Gap
+                      Between Infrastructure & Sustainability
+                    </h2>
+                    <div class="post-description">
+                      <p>
+                        It's no secret the need for sustainable and resilient
+                        infrastructure is becoming more urgent every year. In
+                        fact, industry experts predict that the world will have
+                        to invest $90 trillion in sustainable infrastruc-ture by
+                        2030 to truly combat climate change.
+                      </p>
+                    </div>
+                    <div class="post-btn">
+                      <button class="btn btn-md btn-primary">Read more</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-item">
+                  <div class="post-item__img">
+                    <img src="../images/post-img3.jpg" alt="post-img" />
+                  </div>
+
+                  <div class="post-item__content">
+                    <div class="post-item__info">
+                      <div class="post-item__info-author">
+                        <div class="post-item__author-img">
+                          <img
+                            src="../images/author-avt.png"
+                            alt="author-avt"
+                          />
+                        </div>
+                        <div class="post-info__author-name">
+                          Written By Admin
+                        </div>
+                      </div>
+                      <div class="post-info__date">10 July, 2022</div>
+                    </div>
+
+                    <h2 class="post-title">
+                      How Coworking Companies Like The Wing And Industrious Are
+                      Intersecting With Retail
+                    </h2>
+                    <div class="post-description">
+                      <p>
+                        The lines between retail, office, and industrial real
+                        estate are becoming exponentially blurred. And the
+                        relationship between retail and coworking seems to be at
+                        the forefront of the change, with coworking companies
+                        leasing retail real estate and displaying retail
+                        products in their spaces.
+                      </p>
+                    </div>
+                    <div class="post-btn">
+                      <button class="btn btn-md btn-primary">Read more</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-item">
+                  <div class="post-item__img">
+                    <img src="../images/post-img4.jpg" alt="post-img" />
+                  </div>
+
+                  <div class="post-item__content">
+                    <div class="post-item__info">
+                      <div class="post-item__info-author">
+                        <div class="post-item__author-img">
+                          <img
+                            src="../images/author-avt.png"
+                            alt="author-avt"
+                          />
+                        </div>
+                        <div class="post-info__author-name">
+                          Written By Admin
+                        </div>
+                      </div>
+                      <div class="post-info__date">10 July, 2022</div>
+                    </div>
+
+                    <h2 class="post-title">
+                      5 More Questions To Ask During Your Project Kickoff
+                      Meeting
+                    </h2>
+                    <div class="post-description">
+                      <p>
+                        Project kickoff meetings can be a powerful tool for
+                        establishing a strong foundation for your project. Don’t
+                        make the mistake of sending a few emails in lieu of a
+                        formal kickoff meeting as the kickoff meeting provides a
+                        valuable opportunity to get everyone on the same page.
+                      </p>
+                    </div>
+                    <div class="post-btn">
+                      <button class="btn btn-md btn-primary">Read more</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pagination">
+                  <div class="pagination-arrow__left">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M8.75 3.5L5.25 7L8.75 10.5"
+                        stroke="#7B88A8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="pagination-item">1</div>
+                  <div class="pagination-item pagination-active">2</div>
+                  <div class="pagination-item">3</div>
+                  <div class="pagination-item">4</div>
+                  <div class="pagination-item">...</div>
+
+                  <div class="pagination-arrow__right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M5.25 10.5L8.75 7L5.25 3.5"
+                        stroke="#7B88A8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blogsidebar col" style="--col-lg: 3">
+              <div class="blogsidebar-item">
+                <div class="blogsidebar-item__search">
+                  <h2 class="blogsidebar-item__search-title">Search</h2>
+                  <div class="blogsidebar-item__search-box">
+                    <div class="blogsidebar-item__search-input">
+                      <input type="text" placeholder="Enter email" />
+                    </div>
+                    <div class="blogsidebar-item__search-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="21"
+                        height="21"
+                        viewBox="0 0 21 21"
+                        fill="none"
+                      >
+                        <circle
+                          cx="9"
+                          cy="9"
+                          r="8"
+                          stroke="#7B88A8"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M14.5 14.958L19.5 19.958"
+                          stroke="#7B88A8"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blogsidebar-item">
+                <div class="blogsidebar-news">
+                  <h2 class="blogsidebar-news__title">Latest News</h2>
+
+                  <div class="blogsidebar-news__item">
+                    <div
+                      class="blogsidebar-news__item-img blogsidebar-news__item-img-active"
+                    >
+                      <img src="../images/news-img1.jpg" alt="news-img" />
+                    </div>
+                    <div class="blogsidebar-news__item-title">
+                      <p>Start Your First Week Of A New Job Like A Boss</p>
+                    </div>
+                  </div>
+
+                  <div class="blogsidebar-news__item">
+                    <div class="blogsidebar-news__item-img">
+                      <img src="../images/news-img2.jpg" alt="news-img" />
+                    </div>
+                    <div class="blogsidebar-news__item-title">
+                      <p>Pioneering A New Twist On Coworking Models</p>
+                    </div>
+                  </div>
+
+                  <div class="blogsidebar-news__item">
+                    <div class="blogsidebar-news__item-img">
+                      <img src="../images/news-img3.jpg" alt="news-img" />
+                    </div>
+                    <div class="blogsidebar-news__item-title">
+                      <p>The White-Label Software Model In Fintech</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blogsidebar-item">
+                <div class="blogsidebar-category">
+                  <h2 class="blogsidebar-category__title">Categories</h2>
+                  <div class="blogsidebar-select">
+                    <select>
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blogsidebar-item">
+                <div class="blogsidebar-tags">
+                  <h2 class="blogsidebar-tags__title">Tags</h2>
+
+                  <div class="blogsidebar-tags__list">
+                    <div class="blogsidebar-tags__item">api</div>
+                    <div class="blogsidebar-tags__item">apps</div>
+                    <div class="blogsidebar-tags__item">branding</div>
+                    <div class="blogsidebar-tags__item">design</div>
+                    <div class="blogsidebar-tags__item">development</div>
+                    <div class="blogsidebar-tags__item">devops</div>
+                    <div class="blogsidebar-tags__item">email</div>
+                    <div class="blogsidebar-tags__item">fintech</div>
+                    <div class="blogsidebar-tags__item">news</div>
+                    <div class="blogsidebar-tags__item">technology</div>
+                    <div class="blogsidebar-tags__item">shop</div>
+                    <div class="blogsidebar-tags__item">startup</div>
+                    <div class="blogsidebar-tags__item">wordpress</div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+
+              <div class="blogsidebar-item">
+                <div class="blogsidebar-archive">
+                  <h2 class="blogsidebar-category__title">Archive</h2>
+                  <div class="blogsidebar-select">
+                    <select>
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blogsidebar-item">
+                <div class="blogsidebar-subscribe">
+                  <h2 class="blogsidebar-subscribe__title">
+                    Subscribe To Our Newsletter Today
+                  </h2>
+                  <div class="blogsidebar-subscribe__btn">
+                    <button class="btn btn-primary btn-md">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          div
+          style="background: url(../images/BG.jpg) no-repeat left bottom"
+        >
+          <div class="blog-subscribe container">
+            <div class="blog-subscribe__description">
+              Visit our blog! Follow the developments in the technology &
+              entrepreneur world
+            </div>
+            <h2 class="blog-subscribe__title">
+              Subscribe to our newsletter <span>free</span> and stay updated on
+              the latest developments!
+            </h2>
+            <div class="blog-subscribe__box">
+              <div class="blog-subscribe__input">
+                <input type="text" placeholder="Enter email" />
+              </div>
+              <div class="blog-subscribe__btn">
+                <button class="btn btn-md btn-primary">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="footer-container container">
+            <div class="footer-top row">
+              <div class="footer-top__item col" style="--col-lg: 2">
+                <div class="footer-top__item-logo">
+                  <img src="../images/Logo.png" alt="logo" />
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="-col-lg: 2">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">company</h4>
+                  <ul class="footer-top__detail-list">
+                    <li class="footer-top__detail-item">
+                      <a href="#">about</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">work</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">careers</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">pricing</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="--col-lg: 2">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">Services</h4>
+                  <ul class="footer-top__detail-list">
+                    <li class="footer-top__detail-item">
+                      <a href="#">Branding</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Websites</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Development</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Strategy</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Platforms</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="--col-lg: 2">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">Contact</h4>
+                  <ul class="footer-top__detail-list">
+                    <li class="footer-top__detail-item">
+                      <a href="#">Help Desk</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Docs</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Open a Ticket</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Chat</a>
+                    </li>
+                    <li class="footer-top__detail-item">
+                      <a href="#">Forum</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-top__item col" style="--col-lg: 4">
+                <div class="footer-top__detail">
+                  <h4 class="footer-top__detail-title">Newsletter</h4>
+                  <div class="footer-top__detail-description">
+                    <p>
+                      Subscribe to our newsletter to keep up to date on our
+                      marketing, website, design services, and tips.
+                    </p>
+                  </div>
+                  <div class="footer-top__detail-submit">
+                    <div class="footer-top__detail-submit-input">
+                      <input type="text" placeholder="Enter email" />
+                    </div>
+                    <div class="footer-top__detail-submit-btn">
+                      <button class="btn btn-md btn-primary">
+                        <span>Submit</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="footer-top__detail-description-2">
+                    <p>
+                      We hate spam as much as you do. We will never, ever send
+                      you such emails.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <div class="footer-bottom__copy-right">
+                <p>
+                  © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+                  Privacy Policy.
+                </p>
+              </div>
+              <div class="footer-bottom__social">
+                <div>
+                  <a href="#"
+                    ><img src="../images/Facebook.png" alt="facebook"
+                  /></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img src="../images/Twitter.png" alt="twitter"
+                  /></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img src="../images/LinkedIn.png" alt="linkedin"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

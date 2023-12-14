@@ -28,8 +28,13 @@
   line-height: 145.455%; /* 145.455% */
   letter-spacing: -1px;
   color: var(--sub-text-color);
-  width: 62%;
+  padding: 0 240px;
 }
 
 .office-advise__btn {
+  button {
+    span {
+      padding: 0 2px;
+    }
+  }
 }

@@ -1,5 +1,4 @@
 .header {
-  background-color: var(--bgbg-light-alt);
   padding-top: 16px;
 }
 
@@ -12,7 +11,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 50px;
 }
 
 .navbar {
@@ -34,18 +32,17 @@
     line-height: 160%;
     letter-spacing: -0.3px;
   }
+}
 
-  &:first-child {
-    a {
-      color: var(--text-color);
-    }
+.navbar__list-active {
+  a {
+    color: var(--text-color);
   }
 }
 
 .header__right {
   display: flex;
   align-items: center;
-  margin-right: 50px;
 }
 
 .header__search-icon {
@@ -58,5 +55,9 @@
 .header__sigup-btn {
   button {
     letter-spacing: -0.3px;
+
+    span {
+      padding: 0 13px;
+    }
   }
 }

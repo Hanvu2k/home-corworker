@@ -6,7 +6,6 @@
 .footer-container {
   justify-content: center;
   align-items: center;
-  padding: 0 65px;
 }
 
 .footer-top {
@@ -35,7 +34,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 162.5%; /* 162.5% */
-  width: 98%;
   padding: 20px 0 25px;
 }
 
@@ -68,15 +66,21 @@
 }
 
 .footer-top__detail-submit-input {
+  border-radius: 5px;
   input {
     outline: none;
     border: none;
-    padding: 16px 18px 15px;
+    padding: 16px 55px 15px 18px;
     border-radius: 5px;
   }
 }
 
 .footer-top__detail-submit-btn {
+  button {
+    span {
+      padding: 0 14px;
+    }
+  }
 }
 
 .footer-top__detail-description-2 {
@@ -100,4 +104,6 @@
 }
 
 .footer-bottom__social {
+  display: flex;
+  gap: 20px;
 }

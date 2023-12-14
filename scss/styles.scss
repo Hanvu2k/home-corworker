@@ -20,3 +20,18 @@
 @import "./components/heading.scss";
 @import "./components/textGradient.scss";
 @import "./components/footer.scss";
+@import "./components/banner.scss";
+@import "./components/post.scss";
+@import "./components/pagination.scss";
+@import "./components/blogSidebar.scss";
+@import "./components/blogSubscribe.scss";
+@import "./components/chat.scss";
+@import "./components/blog.scss";
+@import "./components/shopSidebar.scss";
+@import "./components/product.scss";
+@import "./components/chechbox.scss";
+@import "./components/divide.scss";
+
+.color-gray {
+  color: var(--sub-text-color);
+}

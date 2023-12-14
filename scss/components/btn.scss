@@ -1,10 +1,14 @@
 .btn {
-  font-size: 15px;
   text-transform: uppercase;
   color: #fff;
   border: none;
   border-radius: 5px;
   font-weight: 500;
+  line-height: 24px;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .btn-primary {
@@ -12,10 +16,6 @@
 }
 
 .btn-secondary {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   background-color: var(--action-green);
 }
 
@@ -24,9 +24,42 @@
 }
 
 .btn-md {
-  padding: 16px 24px 15px;
+  font-size: 14px;
+  padding: 12px 24px;
 }
 
 .btn-lg {
-  padding: 18px 32px;
+  font-size: 15px;
+  padding: 16px 24px 16px 24px;
+}
+
+.btn-toggled {
+  height: 33px;
+  width: 72px;
+  border-radius: 20px;
+  background-color: #e7e5ea;
+  position: relative;
+  transition: all 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .status {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: var(--action-green);
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    transition: transform 0.8s ease;
+    transform: translateX(-50%);
+  }
+
+  .actived {
+    left: unset;
+    left: 30px;
+    transform: translateX(50%);
+  }
 }

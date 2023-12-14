@@ -1,0 +1,37 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.chat__description {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%; /* 145.455% */
+  letter-spacing: -1px;
+  color: var(--sub-text-color);
+  padding-top: 30px;
+}
+
+.chat__title {
+  padding: 100px 0;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -2px;
+  color: var(--text-color);
+  padding: 0 190px;
+}
+
+.chat__box {
+  display: flex;
+  gap: 6px;
+}
+
+.chat__btn {
+  padding: 77px 0 100px;
+}

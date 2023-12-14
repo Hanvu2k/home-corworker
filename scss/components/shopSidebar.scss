@@ -1,0 +1,134 @@
+.shopsidebar {
+}
+
+.shopsidebar-container {
+  margin: 0 1px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.shopsidebar-item {
+}
+
+.shopsidebar-item__heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+  margin-right: 2px;
+}
+
+.shopsidebar-item__heading-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155.556%; /* 155.556% */
+  letter-spacing: 0.4px;
+  color: var(--text-color);
+}
+
+.shopsidebar-item__heading-icon {
+}
+
+.shopsidebar-item__topic {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shopsidebar-item__topic-content {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.shopsidebar-item__topic-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: -0.3px;
+}
+
+.shopsidebar-item__topic-icon {
+}
+
+.shopsidebar-item__topic-item {
+  padding-left: 25px;
+  margin-top: 12px;
+}
+
+.topic-item__content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+
+.topic-item__content-title {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: -0.3px;
+  color: var(--sub-text-color);
+}
+
+.shopsidebar-item__price {
+}
+
+.shopsidebar-item__price-select {
+}
+
+.price-line {
+  display: flex;
+  align-items: center;
+}
+
+.price-line__circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.price-line__cross {
+  height: 2px;
+  background-color: var(--primary-color);
+  flex: 1;
+}
+
+.price-value {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.429%; /* 171.429% */
+  letter-spacing: -0.3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopsidebar-item__price-filter {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 171.429%; /* 171.429% */
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: var(--text-text);
+  display: flex;
+  justify-content: space-between;
+
+  h4 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171.429%; /* 171.429% */
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+  }
+}

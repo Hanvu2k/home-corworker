@@ -1,0 +1,31 @@
+.banner {
+  padding: 140px 0 186px;
+}
+
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner__content-title {
+  letter-spacing: -2px;
+}
+
+.banner__content-page {
+  color: var(--sub-text-color);
+
+  p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 160% */
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    span {
+      color: var(--text-color);
+    }
+  }
+}

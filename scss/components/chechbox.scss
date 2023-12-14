@@ -1,0 +1,14 @@
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+.unchecked {
+  background: var(--lines-gray-line);
+}
+
+.checked {
+  background-color: black;
+  background-image: url("../../images/checked.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
