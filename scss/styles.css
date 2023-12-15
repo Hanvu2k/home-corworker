@@ -108,8 +108,13 @@ body {
   align-items: center;
 }
 
+.header__search-icon {
+  cursor: pointer;
+}
+
 .header__bag-icon {
   margin: 0 30px 0 20px;
+  cursor: pointer;
 }
 
 .header__sigup-btn button {
@@ -1559,6 +1564,9 @@ body {
   margin-bottom: 10px;
   border-bottom: 1px solid var(--lines-gray-line);
 }
+.shopsidebar-item__heading:hover {
+  cursor: pointer;
+}
 
 .shopsidebar-item__heading-title {
   font-size: 18px;
@@ -1577,6 +1585,9 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.shopsidebar-item__topic-heading:hover {
+  cursor: pointer;
 }
 
 .shopsidebar-item__topic-content {
@@ -1715,6 +1726,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .product-item__img img {

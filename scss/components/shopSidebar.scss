@@ -16,6 +16,10 @@
   margin-right: 2px;
   margin-bottom: 10px;
   border-bottom: 1px solid var(--lines-gray-line);
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .shopsidebar-item__heading-title {
@@ -38,6 +42,10 @@
   display: flex;
   align-items: center;
   gap: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .shopsidebar-item__topic-content {
