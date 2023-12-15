@@ -7,15 +7,15 @@
   gap: 5px;
 }
 
-.pagination-arrow__right {
+.pagination__arrow-right {
   padding-left: 10px;
 }
 
-.pagination-arrow__left {
+.pagination__arrow-left {
   padding-right: 10px;
 }
 
-.pagination-item {
+.pagination__item {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -32,7 +32,7 @@
   }
 }
 
-.pagination-active {
+.pagination--active {
   color: #fff;
   background-color: var(--primary-color);
   border-radius: 5px;
