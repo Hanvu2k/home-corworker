@@ -1424,7 +1424,7 @@ body {
 }
 
 .blogsidebar-subscribe {
-  background: url("../../images/bgsubcribe.jpg") no-repeat center;
+  background: url("../images/bgsubcribe.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
   padding-top: 128px;
@@ -1759,7 +1759,7 @@ body {
 
 .checked {
   background-color: black;
-  background-image: url("../../images/checked.png");
+  background-image: url(../images/checked.png);
   background-repeat: no-repeat;
   background-position: center;
 }
