@@ -1759,7 +1759,7 @@ body {
 
 .checked {
   background-color: black;
-  background-image: url(../images/checked.png);
+  background-image: url("images/checked.png");
   background-repeat: no-repeat;
   background-position: center;
 }
